@@ -1,0 +1,25 @@
+{
+  "title": "乡村配送签收凭证与包裹状态的采集",
+  "category": "乡村配送",
+  "choice": "交接站",
+  "revision": "游标",
+  "detail_label": "签收回执",
+  "entity": "运单",
+  "fact": "交接",
+  "items": [
+    {
+      "id": "delivery-a",
+      "name": "运单甲到站",
+      "group": "甲",
+      "detail": "签收回执甲",
+      "changed_detail": "签收回执修订甲"
+    },
+    {
+      "id": "delivery-b",
+      "name": "运单乙改派",
+      "group": "乙",
+      "detail": "签收回执乙",
+      "changed_detail": "签收回执修订乙"
+    }
+  ]
+}
